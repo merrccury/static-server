@@ -1,0 +1,30 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "static server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "Dmitry Alekseichik",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^73.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.6.0",
+    "react-audio-player": "^0.17.0",
+    "sequelize": "^6.6.2",
+    "sharp": "^0.28.2",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "socket.io": "^4.1.2"
+  }
+}
